@@ -1,5 +1,5 @@
-# DALL·E Clone - AI Image Generator Website
-DALL·E is an ai image generator website that can create realistic images and art from a description in natural language. A front-end project developed using HTML, CSS and JavaScript.
+# AI Image Generator Website
+An AI image generating website like DALL·E that can create realistic images and art from a description in natural language. A front-end project developed using OpenAI API, HTML, CSS and JavaScript.
 
 # GET IN TOUCH
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/noortabishq/) 

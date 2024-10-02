@@ -42,7 +42,7 @@ const generateAiImages = async (userPrompt, userImgQuantity) => {
         });
 
         /*Throw an error message if the API response is unsuccessful*/
-        if (!response.ok) throw new Error("Failed to generate AI images. Make sure your API key is valid.");
+        if (!response.ok) throw new Error("Failed to generate AI images. The API key has reached its limit.");
 
         const { data } = await response.json(); // Get data from the response
         updateImageCard([...data]);
@@ -71,7 +71,7 @@ const handleImageGeneration = (e) => {
     /*Creating HTML markup for image cards with loading state*/
     const imgCardMarkup = Array.from({ length: userImgQuantity }, () =>
         `<div class="img-card loading">
-        <img src="images/loader.svg" alt="AI generated image">
+        <img src="images/loader.svg" alt="AI Generated Image">
         <a class="download-btn" href="#">
           <img src="images/download.svg" alt="download icon">
         </a>

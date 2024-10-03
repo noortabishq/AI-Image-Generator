@@ -1,5 +1,5 @@
 # AI Image Generator Website
-An AI image generating website like DALL·E that can create realistic images and art from a description in natural language. A front-end project developed using OpenAI API, HTML, CSS and JavaScript.
+This project features an AI image generator similar to DALL·E, capable of creating realistic images and art from natural language descriptions. Built with HTML, CSS, and JavaScript, it utilizes the OpenAI API for seamless image generation. Dive into the code to see how to harness AI for creative projects!
 
 # GET IN TOUCH
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/noortabishq/) 
